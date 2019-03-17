@@ -1,20 +1,23 @@
 {
   "src_folders" : ["specs"],
+  "globals_path": "global.js",
   "output_folder" : "reports",
-  "selenium" : {
-    "server_path" : "./bin/selenium-server-standalone-2.46.0.jar",
-    "log_path" : "",
-    "port" : 4444,
-    "cli_args" : {
-      "webdriver.chrome.driver" : "/bin/chromedriver"
-    }
+  "webdriver": {
+    "server_path": "node_modules/.bin/chromedriver",
+    "cli_args": [
+      "--verbose"
+    ],
+    "port": 9515
   },
 
   "test_settings" : {
     "default" : {
+      "videos": {
+        "enabled": true,
+        "delete_on_success": false,
+        "path": "videos"
+      },
       "launch_url" : "http://pagevamp.com",
-      "selenium_port"  : 4444,
-      "selenium_host"  : "localhost",
       "desiredCapabilities": {
         "browserName": "chrome",
         "chromeOptions" : {

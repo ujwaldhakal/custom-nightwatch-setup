@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="sublime"
+    errors="1" failures="0" hostname="" id="" package="sublime" skipped="13"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="starting browser" classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing home page" classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing about page" classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing news page " classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing if news detail page is working" classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing gallery page " classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing if gallery detail page is working" classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing events page " classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing contact page " classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing reviews page " classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing if vampbox is working correctly" classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing error page " classname="sublime">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="end of sublime test" classname="sublime">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

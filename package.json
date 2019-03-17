@@ -19,6 +19,8 @@
     "ffmpeg": "0.0.4",
     "mysql": "^2.15.0",
     "nightwatch": "^1.0.19",
+    "nightwatch-html-reporter": "^2.0.6",
+    "nightwatch-video-recorder": "1.1.0",
     "selenium-server": "^3.141.59"
   }
 }
