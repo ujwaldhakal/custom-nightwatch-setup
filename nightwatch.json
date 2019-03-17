@@ -1,0 +1,26 @@
+{
+  "src_folders" : ["specs"],
+  "output_folder" : "reports",
+  "selenium" : {
+    "server_path" : "./bin/selenium-server-standalone-2.46.0.jar",
+    "log_path" : "",
+    "port" : 4444,
+    "cli_args" : {
+      "webdriver.chrome.driver" : "/bin/chromedriver"
+    }
+  },
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://pagevamp.com",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions" : {
+          "args" : ["headless"]
+        }
+      }
+    }
+  }
+}

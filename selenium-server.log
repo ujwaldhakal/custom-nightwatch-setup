@@ -1,0 +1,9 @@
+18:33:45.898 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+18:33:45.899 INFO - Launching a standalone Selenium Server on port 4444
+2019-03-17 18:33:46.188:INFO::main: Logging initialized @771ms to org.seleniumhq.jetty9.util.log.StdErrLog
+2019-03-17 18:33:46.409:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-22T03:12:37+05:45, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2019-03-17 18:33:46.465:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@76c3e77a{/,null,STARTING} has uncovered http methods for path: /
+2019-03-17 18:33:46.476:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@76c3e77a{/,null,AVAILABLE}
+2019-03-17 18:33:46.513:INFO:osjs.AbstractConnector:main: Stopped ServerConnector@4b0d79fc{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2019-03-17 18:33:46.516:INFO:osjsh.ContextHandler:main: Stopped o.s.j.s.ServletContextHandler@76c3e77a{/,null,UNAVAILABLE}
+18:33:46.519 ERROR - Port 4444 is busy, please choose a free port and specify it using -port option
